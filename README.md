@@ -24,16 +24,26 @@ git clone <repo>
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
 
 ## How to use?
-### Create
+### Create Tab
+## Create Ticket
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/createTicket.png)
+#### On successful creation, ticket id will be displayed
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/ticketCreated.png)
+### Modify Tab
+Everything is displayed on this tab till a valid id is entered in the ID field. Furthermore, Update and Delete buttons are also displayed till details about the ticket are fetched.
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/ModifyTab.png)
+#### Search Ticket
+If ticket exists
+I![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/searchID.png)
+
+If ticket does not exists
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/InvalidTicket.png)
+
+
+#### Update Ticket
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
 
-### Get Ticket
-![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
-
-### Update Ticket
-![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
-
-### Delete Ticket
+#### Delete Ticket
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
 
   
