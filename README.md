@@ -1,10 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Inventory System for Mercury Wireless
+Target table - Tickets
 
-## Available Scripts
+## Set-Up
 
-In the project directory, you can run:
+### Clone Repo
+git clone <repo>
+### Set up virtual environment
+  - cd api
+  - python3 -m venv venv
+### Install Flask and python-dotenv
+  - (venv) $ pip install flask python-dotenv
 
-### `npm start`
+## Run
+### Run Server
+- Open terminal
+- cd api
+- flask run
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/server.png)
+### Run Client
+- Open Terminal and stay in repo's root
+- npm start
+- Following UI should load on the screen. If not then go to http://localhost:3000/
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
+
+## How to use?
+### Create
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
+
+### Get Ticket
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
+
+### Update Ticket
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
+
+### Delete Ticket
+![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
+
+  
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
