@@ -1,0 +1,13 @@
+{
+  "Tickets": {
+    "1599258908000": {
+      "description": "new ticket",
+      "type": "Moderate",
+      "opened_by": "sorte",
+      "opened_at": "2020-09-04T22:35:08.988Z",
+      "updated_by": "",
+      "updated_at": "",
+      "due_date": "2020-09-06T22:34:56.085Z"
+    }
+  }
+}

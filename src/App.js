@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
+import ReactDOM from "react-dom";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Ticket from './component/ticket'
 
-function App() {
-  return (
+class App extends React.Component {
+  render() {
+    return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="https://www3.mercurywireless.com/" target="_blank">
+                <img src="https://cdn1.mercurywireless.com/website/mercury-theme/glossy.png" height="40" alt=""/>
+            </a>
+          </div>
+        </nav>
+        <div class="container">
+            <Ticket/>
+        </div>
+    </div>);
+  }
 }
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
 
 export default App;
