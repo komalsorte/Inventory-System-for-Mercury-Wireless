@@ -16,12 +16,17 @@ git clone <repo>
 - Open terminal
 - cd api
 - flask run
+
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/server.png)
 ### Run Client
 - Open Terminal and stay in repo's root
 - npm start
 - Following UI should load on the screen. If not then go to http://localhost:3000/
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
+### Specifics
+#### Connections
+- Server: http://localhost:5000/
+- Client: http://localhost:3000/
 #### Database
 No database connection is required. Data is being maintained in simple .json file. 
 
