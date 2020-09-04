@@ -22,6 +22,8 @@ git clone <repo>
 - npm start
 - Following UI should load on the screen. If not then go to http://localhost:3000/
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/homePage.png)
+#### Database
+No database connection is required. Data is being maintained in simple .json file. 
 
 ## How to use?
 ### Create Tab
@@ -49,3 +51,7 @@ Submit it and try to access again.
 #### Delete Ticket
 Delete button will enabled once valid ticket id is searched. You can delete the ticket by  clicking on the Delete button.
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/TicketDeleted.png)
+
+## Technologies Used
+- Python Flask: For backend. API for CRUD
+- React.js: Front end
