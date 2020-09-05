@@ -32,7 +32,7 @@ No database connection is required. Data is being maintained in simple .json fil
 
 ## How to use?
 ### Create Tab
-## Create Ticket
+#### Create Ticket
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/createTicket.png)
 #### On successful creation, ticket id will be displayed
 ![alt text](https://github.com/komalsorte/Inventory-System-for-Mercury-Wireless/blob/master/img/ticketCreated.png)
